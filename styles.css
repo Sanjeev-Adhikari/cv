@@ -153,15 +153,6 @@ body{
   .secondHalf:hover .currentimg{
     animation: imageAnimation 7s infinite;
 }
-  @keyframes photoAnimation {
-    0% { opacity: 1; }
-    16.66% { background-image: url("backgroundimg2.jpg"); }
-    33.33% { background-image: url("backgroundimg3.jpg"); }
-    50% { background-image: url("backgroundimg4.jpg"); }
-    66.66% { background-image: url("backgroundimg5.jpg"); }
-    83.33% { background-image: url("backgroundimg6.jpg"); }
-     100% { background-image: url("backgroundimg6.jpg"); opacity: 1; }
-  }
   
 
 /*........about............*/
@@ -185,7 +176,7 @@ body{
 }
 .aboutimg{ 
     margin: -50px;
-    margin-left: 10px;
+    margin-left: 0px;
     width: 600px;
     height: 500px;
     border-radius: 20px;
