@@ -376,7 +376,7 @@ form input, form textarea{
     padding: 15px 0;
     background-color: #262626;
 }
-/*.......Code to make it responsive.......
+/*.......Code to make it responsive.......*/
 .burger{
         display: none;
         position: absolute;
@@ -413,7 +413,7 @@ form input, form textarea{
         display: none;
         opacity: 0;
     }
-}*/
+}
 
   
   
