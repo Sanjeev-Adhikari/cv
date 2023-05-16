@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+   
+    <script src="https://kit.fontawesome.com/5776b555bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar h-nav-resp">
+        <div class="leftnav">
+            <div class="logo">
+                <img src="logo.png" class="logo">
+            </div>
+        </div>
+        <ul class="nav-list v-class-resp">
+            
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">My Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+        <!--<div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    -->
+       
+        
+    </nav>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h2><span>MERN</span>  Full stack developer</h2>
+        <h1><p class="this">Hello World</p> I have arrived in the path of Web development with an aim of <br>Enhancing the user-experience.</h1>
+                   
+           </div>
+           
+               <div class="secondHalf">
+                
+                 <img src="backgroundimg1.jpg" class="currentimg">
+                 <img src="backgroundimg3.jpg" class="anotherimg">
+                </div>>
+                
+        </div>
+        
+    
+   <!-- about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="abou-col-1">
+                <img src="Aboutmeimg.jpg" class="aboutimg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <br>
+                <p>
+                    I am sanjeev adhikari from Nepal. I play flute in my hometown band SANSKAR. I am highly intrested in web development and hence, I started my web development journey by understanding MERN. I worked at Entegrasources as a Technical Writer. I love listening to the music and find internal peace there.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('knowledge')">Eager to Learn</p>
+                    <p class="tab-links" onclick="opentab('education')"> Education</p>
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                </div>
+                
+                <div class="tab-contents active-tab" id="knowledge">
+                    <ul id="sidemenu">
+                        <li><span>React js</span><br>Node js</li>
+                        <li><span>MongoDB</span><br>MySQL</li>
+                        <li><span>Technical Writing</span><br>Report & Documentation</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents"id="education">
+                    <ul>
+                        <li><span>2076/2019-current</span><br>Ongoing bachlors in BSC.csIT at Bhairahawa Multiple Campus...</li>
+                        <li><span>2073-2075/76</span><br>Completed Intermediate(+2) from New Horizon.</li>
+                        <li><span>2072/73</span><br>Completed SLC from Tinau English Boarding School.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>Frontend using </span><br>HTML/CSS/Js.</li>
+                        <li><span>Preparing plagarism free contents<br> </span>Any type of Technical writing(Ex:CDR forms/User mannuals/Career Episodes/Final year engineering Reports).</li>
+                        <li><span>Playing Flute</span><br>Flutist at Sanskar Band.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!--........services.........-->
+
+    <div id="services">
+        <div class="container">
+            <h1  class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code fa-beat-fade"></i><br>
+                    <H2>Website Development</H2>
+                    <p>I design responsive and user-interactive web sites using MERN.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios fa-beat"></i><br>
+                    <h2>Web application development</h2>
+                    <p>I design user-friendly web applications using Java.</p>
+                    <a href="#">learn more</a>
+                </div>
+            <div>
+                <i class="fa-regular fa-keyboard fa-beat-fade"></i><br>
+                <h2>Technical Writing</h2>
+                <p>I write and prepare technical documents such as final year project reports of any engineering field.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+        </div>
+    </div>
+  <!--......I will add some of my projects here-->
+  <!--.........Contact.......-->
+  <div id="contact">
+    <div class="Information">
+        <div class="Left-contact">
+              <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-share-from-square"></i>Sanjeevadhikari75@gmail.com</p>
+                <p><i class="fa-brands fa-whatsapp fa-xl"></i>9840955770</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/sanjeev.adhikari.7712/"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href=" https://www.instagram.com/sanjeev.adhikari.7712/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://github.com/Sanjeev-Adhikari"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sanjeev-adhikari-49ba63273/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                   <div>
+                        <a href="CV.pdf" download ><button class="btn">Download CV</button></a>
+                    </div>
+        
+        </div>
+        <div class="Messageform">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form> 
+                <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        &copy; Copyright @ Sanjeev. Developed by <span>Sanjeev Adhikari</span>.
+    </div>
+  </div>
+ </div>
+
+  <script>
+
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks)
+        {
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents)
+    {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+  </script>
+ 
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzYLS3RjD9UsamVIEzDL063-sQY94MFxXSsOhxW11Ja12Nh4ovQs54fuqsFekyb6kYjbQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById('msg')
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script src="js/resp.js"></script>
+</body>       
+    
+        
+        
+</body>
+</html>
