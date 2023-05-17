@@ -68,7 +68,7 @@ body{
 .firstHalf{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     color: black;
-    padding: 0px 50px;
+    padding: 0px 60px;
     margin-bottom: 37px;
      margin-left: 50px;
     width: 50%;
@@ -89,11 +89,11 @@ body{
 }
 
 .firstHalf h2{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .firstHalf h1 {
-    font-size: 25;
+    font-size: 35;
     text-align: justify;
     font-weight: bold;
 }
